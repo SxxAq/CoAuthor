@@ -1,10 +1,15 @@
+import { Editor } from "@/components/editor/Editor";
+import Header from "@/components/header/Header";
 import { Button } from "@/components/ui/button";
 import React from "react";
 
 const page = () => {
   return (
     <div>
-      <Button>Click ME</Button>
+      <Header>
+<p className="text-white"> </p>
+      </Header>
+      <Editor />
     </div>
   );
 };
