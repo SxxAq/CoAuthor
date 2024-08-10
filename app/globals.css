@@ -13,6 +13,7 @@
     background: #09111f;
     color: #fff;
     margin: 0;
+    padding: 0;
   }
 
   .custom-scrollbar::-webkit-scrollbar {
