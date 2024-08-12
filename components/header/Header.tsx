@@ -1,9 +1,9 @@
-import React from "react";
+import { cn } from "@/lib/utils";
 import Link from "next/link";
 import Image from "next/image";
-const Header = ({ children }: HeaderProps) => {
+const Header = ({ children,className }: HeaderProps) => {
   return (
-    <div className="header md:px-4">
+    <div className={cn("header md:px-4",className)}>
       <Link href="/" className="md:flex-1">
         <div className="flex items-center gap-2 ">
           <Image
